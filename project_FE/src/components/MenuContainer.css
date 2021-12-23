@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  border: red 1px solid;
+  width: 50%;
+  border-radius: 10px;
+  color: #fff;
+}
