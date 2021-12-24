@@ -15,6 +15,7 @@ import { ellipse, square, triangle } from "ionicons/icons";
 import Start from "./pages/start";
 import Home from "./pages/home";
 import Submenu from "./pages/submenu";
+import Header from "./pages/header";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -51,6 +52,9 @@ const App: React.FC = () => (
           <Route path="/submenu">
             <Submenu />
           </Route>
+          <Route path="/header">
+            <Header />
+          </Route>
           <Route exact path="/">
             <Redirect to="/home" />
           </Route>
@@ -67,6 +71,10 @@ const App: React.FC = () => (
           <IonTabButton tab="submenu" href="/submenu">
             <IonIcon icon={square} />
             <IonLabel>Submenu</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="header" href="/header">
+            <IonIcon icon={ellipse} />
+            <IonLabel>Header</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

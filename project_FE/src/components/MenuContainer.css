@@ -1,9 +1,17 @@
-.container {
+.menu-container {
   position: relative;
-  text-align: center;
-  background-color: #000;
-  border: red 1px solid;
-  width: 50%;
+  display: flex;
+  margin: auto;
+  width: 260px;
+  height: 50px;
+  background-color: #005bac;
   border-radius: 10px;
+}
+
+.menu-container strong {
+  position: relative;
+  display: flex;
+  margin: auto;
+  text-align: center;
   color: #fff;
 }
