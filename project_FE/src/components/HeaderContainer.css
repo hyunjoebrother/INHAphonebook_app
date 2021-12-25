@@ -1,0 +1,19 @@
+.header-container {
+  position: absolute;
+  width: 100%;
+}
+
+.header-container strong {
+  font-size: 1.6rem;
+}
+
+.header-container .search-container {
+  position: relative;
+  display: flex;
+  background-color: orange;
+  border-radius: 1px red solid;
+}
+
+.header-container .search-container input {
+  font-size: 0.8rem;
+}
